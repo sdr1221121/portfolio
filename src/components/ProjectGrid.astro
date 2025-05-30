@@ -1,0 +1,16 @@
+---
+import SingleProject from './SingleProject.astro';
+
+import projects from '../data/projects.json'
+---
+
+<div class="space-y-4">
+  {projects.map(project => (
+    <SingleProject 
+      title={project.title} 
+      num_contributors={project.num_contributors}
+      description={project.description} 
+      github_link={project.github_link} 
+    />
+  ))}
+</div>

@@ -1,0 +1,56 @@
+[
+  {
+    "title": "uSettle",
+    "num_contributors": 4,
+    "description": "Conceptualized and developed an expense-sharing mobile application using Flutter during the Shift Appens hackathon.",
+    "github_link": "https://github.com/rubuy-74/usettle"
+  },
+  {
+    "title": "everyday.dev",
+    "num_contributors": 4,
+    "description": "Built a full-stack web application inspired by the Daily.dev platform using Laravel, enabling developers to create and share tech news.",
+    "github_link": "https://github.com/rubuy-74/LBAW-everyday.dev"
+  },
+  {
+    "title": "Website AE",
+    "num_contributors": 7,
+    "description": "Created a modern website for the FEUP student association using Next.js and Payload CMS.",
+    "github_link": "https://github.com/rubuy-74/website-ae"
+  },
+  {
+    "title": "Portfolio",
+    "num_contributors": 1,
+    "description": "Currently designing and developing a personal portfolio website to showcase my projects and share more about myself.",
+    "github_link": "https://github.com/rubuy-74/portifolio"
+  },
+  {
+    "title": "NIployments",
+    "num_contributors": 12,
+    "description": "Contributed to restructuring the infrastructure of the University’s Informatics Club through a collaborative development effort.",
+    "github_link": "https://github.com/niaefeup/niployments"
+  },
+  {
+    "title": "LTW-Pre-Loved",
+    "num_contributors": 3,
+    "description": "Developed a marketplace website similar to OLX from scratch using pure PHP, HTML, CSS, and JavaScript.",
+    "github_link": "https://github.com/rubuy-74/LTW-Pre-Loved"
+  },
+  {
+    "title": "Website NIAEFEUP",
+    "num_contributors": 7,
+    "description": "Currently contributing to both the backend and parts of the frontend for the official website of the University’s Informatics Club.",
+    "github_link": "https://github.com/niaefeup/website-niaefeup-backend"
+  },
+  {
+    "title": "Simple Tomb of the Mask",
+    "num_contributors": 3,
+    "description": "Created a simple clone of the Tomb of the Mask game using the Laterna framework in Java.",
+    "github_link": "https://github.com/rubuy-74/feup-ldts"
+  },
+  {
+    "title": "UNI",
+    "num_contributors": 63,
+    "description": "Participated in a large-scale project over the course of a year, now actively used by over 5,000 students.",
+    "github_link": "https://github.com/niaefeup/uni"
+  }
+]

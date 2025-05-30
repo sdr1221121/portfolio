@@ -1,0 +1,25 @@
+---
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import "../styles/global.css";
+const { title = "Rubem | Portfolio" } = Astro.props;
+---
+<html lang="en" class="bg-gray-900 text-white">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <link rel="stylesheet" href="/global.css" />
+  </head>
+  <body class="font-serif">
+		<div class="max-w-3xl mx-auto">
+			<Header/>
+			<main class="px-6">
+				<h1 class="text-3xl font-bold mt-5">Rubem Neto</h1>
+				<p class="text-gray-400 mb-6">Software Engineering Student</p>
+				<slot />
+			</main>
+			<Footer/>
+		</div>
+  </body>
+</html>
