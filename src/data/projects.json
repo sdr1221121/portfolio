@@ -4,62 +4,71 @@
     "slug": "usettle",
     "num_contributors": 4,
     "description": "Conceptualized and developed an expense-sharing mobile application using Flutter during the Shift Appens hackathon.",
-    "github_link": "https://github.com/rubuy-74/usettle"
+    "github_link": "https://github.com/rubuy-74/usettle",
+    "active_link":false
   },
   {
     "title": "everyday.dev",
     "slug": "everyday-dev",
     "num_contributors": 4,
     "description": "Built a full-stack web application inspired by the Daily.dev platform using Laravel, enabling developers to create and share tech news.",
-    "github_link": "https://github.com/rubuy-74/LBAW-everyday.dev"
+    "github_link": "https://github.com/rubuy-74/LBAW-everyday.dev",
+    "active_link":true
   },
   {
     "title": "Website AE",
     "slug": "website-ae",
     "num_contributors": 7,
     "description": "Created a modern website for the FEUP student association using Next.js and Payload CMS.",
-    "github_link": "https://github.com/rubuy-74/website-ae"
+    "github_link": "https://github.com/rubuy-74/website-ae",
+    "active_link":false
   },
   {
     "title": "Portifolio",
     "slug": "portifolio",
     "num_contributors": 1,
     "description": "Currently designing and developing a personal portfolio website to showcase my projects and share more about myself.",
-    "github_link": "https://github.com/rubuy-74/portifolio"
+    "github_link": "https://github.com/rubuy-74/portifolio",
+    "active_link":false
   },
   {
     "title": "NIployments",
     "slug": "niployments",
     "num_contributors": 12,
     "description": "Contributed to restructuring the infrastructure of the University’s Informatics Club through a collaborative development effort.",
-    "github_link": "https://github.com/niaefeup/niployments"
+    "github_link": "https://github.com/niaefeup/niployments",
+    "active_link":false
   },
   {
     "title": "LTW-Pre-Loved",
     "slug": "ltw-pre-loved",
     "num_contributors": 3,
     "description": "Developed a marketplace website similar to OLX from scratch using pure PHP, HTML, CSS, and JavaScript.",
-    "github_link": "https://github.com/rubuy-74/LTW-Pre-Loved"
+    "github_link": "https://github.com/rubuy-74/LTW-Pre-Loved",
+    "active_link":false
   },
   {
     "title": "Website NIAEFEUP",
     "slug": "website-niaefeup",
     "num_contributors": 7,
     "description": "Currently contributing to both the backend and parts of the frontend for the official website of the University’s Informatics Club.",
-    "github_link": "https://github.com/niaefeup/website-niaefeup-backend"
+    "github_link": "https://github.com/niaefeup/website-niaefeup-backend",
+    "active_link":false
   },
   {
     "title": "Simple Tomb of the Mask",
     "slug": "simple-tomb-of-the-mask",
     "num_contributors": 3,
     "description": "Created a simple clone of the Tomb of the Mask game using the Laterna framework in Java.",
-    "github_link": "https://github.com/rubuy-74/feup-ldts"
+    "github_link": "https://github.com/rubuy-74/feup-ldts",
+    "active_link":false
   },
   {
     "title": "UNI",
     "slug": "uni",
     "num_contributors": 63,
     "description": "Participated in a large-scale project over the course of a year, now actively used by over 5,000 students.",
-    "github_link": "https://github.com/niaefeup/uni"
+    "github_link": "https://github.com/niaefeup/uni",
+    "active_link":false
   }
 ]
