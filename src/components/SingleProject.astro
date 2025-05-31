@@ -9,8 +9,8 @@ const redirectLink = activeLink ? `/projects/${slug}` : github_link
 
 <div class="border p-5">
   <div class="flex justify-between">
-    <div class="flex gap-2">
-      <a class="text-xl" href={redirectLink}>{title}</a>
+    <div class="flex gap-1">
+      <a class="text-xl max-w-30 md:max-w-full hover:underline" href={redirectLink}>{title}</a>
       <div class="text-gray-300 flex gap-1">
         <Users/>
         {num_contributors} 
