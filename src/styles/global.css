@@ -2,3 +2,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-xl font-bold my-5;
+  }
+  ul {
+    @apply list-disc pl-6 mb-1;
+  }
+
+  p {
+    @apply mb-4;
+  }
+
+  li {
+    @apply mb-2 ;
+  }
+
+  img {
+    @apply mx-auto my-4;
+  }
+}

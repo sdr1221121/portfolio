@@ -1,14 +1,13 @@
 ---
-import ProjectGrid from '../components/ProjectGrid.astro';
 import Layout from '../layouts/Layout.astro';
+import { Content as AboutMeMarkdown } from '../data/aboutMeMarkdown.md';
 ---
 
 <Layout>
     <h2 class="text-2xl font-bold leading-snug mb-4">
-        About me
+        🧑 About me
     </h2>
-    <h3>
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in pretium dolor, ac sollicitudin velit. Quisque varius dignissim justo. Aliquam augue orci, porttitor in venenatis in, molestie luctus lectus. Sed nec eros id ipsum maximus sollicitudin. Aliquam porttitor tincidunt tortor, quis placerat turpis ultricies eu. Integer nec auctor odio. Phasellus quis est nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis erat vel porta condimentum.
-Aenean at leo ut odio tincidunt vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In non diam dui. Nunc lobortis ex lacus, at feugiat urna pulvinar sit amet. Proin porttitor urna a tempor maximus. Aenean congue rutrum dolor feugiat auctor. Maecenas ut venenatis augue. Nullam imperdiet sem vitae lacus molestie commodo. Vestibulum eget varius arcu. Aliquam vitae enim mattis magna pretium iaculis. Duis sit amet consectetur enim. Proin suscipit dictum nisl, non placerat neque sagittis eu. Quisque non diam magna. Curabitur accumsan magna id urna fringilla, eu luctus risus consectetur. Praesent vehicula tincidunt purus feugiat consequat. 
-    </h3>
+    <div class="prose prose-lg">
+        <AboutMeMarkdown/>
+    </div>
 </Layout>

@@ -1,15 +1,16 @@
 ---
 import ProjectGrid from '../components/ProjectGrid.astro';
 import Layout from '../layouts/Layout.astro';
+import Overview from '../data/overview.json'
 ---
 <Layout title="Rubem | Portfolio">
   <section>
 		<div class="mb-5">
 			<h2 class="text-2xl font-bold leading-snug mb-4">
-				Welcome to my little space on the web. Hope you like it!
+				👋 Welcome to my little space on the web. Hope you like it!
 			</h2>
 			<h3>
-				Third-year software engineering student with professional development experience in full-stack applications and DevOps. Passionate about backend systems and seeking to contribute to innovative projects in a collaborative environment.
+				{Overview.message}
 			</h3>
 		</div>
 
