@@ -1,48 +1,84 @@
-# Astro Starter Kit: Basics
+# Rubem Neto's Portfolio
 
-```sh
-npm create astro@latest -- --template basics
-```
+Welcome to my personal portfolio project! This repository showcases my work, projects, and interests as a Software Engineering student. The portfolio is built using **Astro** and styled with **Tailwind CSS**.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 🚀 Features
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- **Dynamic Project Pages**: Each project has its own dedicated page with detailed information.
+- **Responsive Design**: Fully responsive and optimized for all devices.
+- **Markdown Support**: Project details are written in Markdown for easy editing.
+- **Tailwind CSS**: Styled with Tailwind for a modern and clean look.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## 📂 Project Structure
 
-## 🚀 Project Structure
+Here is an overview of the project structure:
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
+```plaintext
 /
-├── public/
-│   └── favicon.svg
+├── public/                # Static assets (e.g., images, PDFs)
 ├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── assets/            # Logos, background images, etc.
+│   ├── components/        # Reusable UI components
+│   ├── data/              # JSON and Markdown files for content
+│   ├── layouts/           # Layout components
+│   ├── pages/             # Astro pages
+│   └── styles/            # Global CSS styles
+├── astro.config.mjs       # Astro configuration
+├── tailwind.config.js     # Tailwind CSS configuration
+├── tsconfig.json          # TypeScript configuration
+└── package.json           # Project dependencies and scripts
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🛠️ Technologies Used
 
-## 🧞 Commands
+- **Astro**: Static site generator for building fast websites.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Markdown**: Content for projects is written in Markdown.
+- **TypeScript**: Ensures type safety and better developer experience.
 
-All commands are run from the root of the project, from a terminal:
+## 📦 Installation
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+To run this project locally, follow these steps:
 
-## 👀 Want to learn more?
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rubuy-74/portifolio.git
+   ```
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+2. Navigate to the project directory:
+   ```bash
+   cd portifolio
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and go to `http://localhost:4321`.
+
+## 📄 Available Scripts
+
+- `npm run dev`: Start the development server.
+- `npm run build`: Build the project for production.
+- `npm run preview`: Preview the production build locally.
+
+## 🌟 Contributing
+
+Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
+
+## 📧 Contact
+
+If you have any questions or want to connect, feel free to reach out:
+
+- **Email**: [rubemviscard2635@gmail.com](mailto:rubemviscard2635@gmail.com)
+- **LinkedIn**: [linkedin.com/in/rubem-neto-62951122b/](https://www.linkedin.com/in/rubem-neto-62951122b/)
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
