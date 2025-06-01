@@ -5,26 +5,25 @@ const {title,num_contributors,description,github_link,slug, activeLink} = Astro.
 
 const redirectLink = `/projects/${slug}`
 ---
-
-<div class="border p-5">
+<div class="border rounded p-3 md:p-5 border-white hover:bg-[#30302e]">
   <div class="flex justify-between">
-    <div class="flex gap-1">
+    <div class="flex justify-between gap-2">
       { activeLink
-        ? <a class="text-white text-xl max-w-30 md:max-w-full hover:underline" href={redirectLink}>{title}</a>
-        : <h3 class="text-white text-xl max-w-30 md:max-w-full text-gray-300">{title}</h3>
+        ? <a class="text-white max-w-30 md:max-w-full text-xl hover:underline" href={redirectLink}>{title}</a>
+        : <h3 class="text-white text-xl text-gray-300">{title}</h3>
       }
-      <div class="text-gray-300 flex gap-1">
+      <div class="flex gap-1">
         <Users/>
         {num_contributors} 
       </div>
     </div>
     <div>
-      <a href={github_link} class="text-white">
+      <a href={github_link} class="text-[#c96442]">
         <Github/>
       </a>
     </div>
   </div>
-  <div class="text-md text-gray-300">
+  <a class="text-md text-gray-300 no-underline" href={redirectLink}>
     {description}
-  </div>
+  </a >
 </div>

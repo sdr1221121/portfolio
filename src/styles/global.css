@@ -7,6 +7,15 @@
   h1 {
     @apply text-xl font-bold my-5;
   }
+
+  strong {
+    @apply text-[#c96442]
+  }
+
+  a {
+    @apply text-blue-400 hover:underline
+  }
+
   ul {
     @apply list-disc pl-6 mb-1;
   }
@@ -21,9 +30,5 @@
 
   img {
     @apply mx-auto my-4;
-  }
-
-  a {
-    @apply text-blue-500
   }
 }
