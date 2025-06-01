@@ -52,14 +52,14 @@ const project = projects.find((project) => project.slug == id)
 <Layout>
   <div class="flex justify-between items-center mt-5">
     <div class="flex gap-2">
-      <a class="text-3xl font-bold" href={`/projects/${project?.slug}`}>{project?.title}</a>
+      <a class="text-white text-3xl font-bold" href={`/projects/${project?.slug}`}>{project?.title}</a>
       <div class="text-gray-300 flex gap-1 items-center">
         <Users/>
         {project?.num_contributors} 
       </div>
     </div>
     <div class="flex flex-col justify-between items-center">
-      <a href={project?.github_link}>
+      <a href={project?.github_link} class="text-white">
         <Github/>
       </a>
     </div>

@@ -2,12 +2,14 @@
 
 This project was developed for the **Database and Web Applications Laboratory** course, where our group was given the task of creating an entire website from scratch—from designing the requirements and defining the actors, to actually building the website.
 
-# Technologies and Categories
+The website is a clone of the famous daily.dev website.
+
+# Technologies
 
 - Laravel  
 - HTML  
 - JavaScript  
-- Tailwind  
+- TailwindCSS
 - PostgreSQL
 
 # What did I do?
