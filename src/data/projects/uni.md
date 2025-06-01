@@ -18,6 +18,6 @@ This project was started in 2018 as an app to help improve the daily lives of th
 
 **During my years working on projects, I learned a lot about Flutter and Mobile Development.**
 
-# Would I do something different?
+# Would I do something differently?
 
 I would spend more time contributing to the project, as I believe it would make me even more comfortable with mobile development and overall programming.

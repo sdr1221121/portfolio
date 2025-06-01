@@ -24,6 +24,6 @@ For the backend, **another team member and I developed the database schema and i
 
 **This was the project that actually taught me how web development works and how to work with it.** I would recommend anyone that really wants to understand how to develop for the web, for either frontend or backend, to work on a project (even if small) using the native technologies. It's hard but it is worth it.
 
-# Would I do something different?
+# Would I do something differently?
 
 I would probably give more of my time to creating a small JavaScript framework to facilitate the development of some of the components, as I saw done in some projects from previous years.

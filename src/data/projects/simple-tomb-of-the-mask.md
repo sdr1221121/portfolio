@@ -27,7 +27,7 @@ In this project we used a font to display the different entities and **I was the
 
 **This project had an important role in teaching me design patterns and how they work.** At first glance, design patterns seem kind of useless or just unnecessary junk, but after the end of that project **I realized their importance and how they can improve organization within a project**.
 
-# Would I do something different?
+# Would I do something differently?
 
 I would probably work more on the development of the game itself. For this course I shifted all my focus to creating tests and ensuring that we had good tests that really tested the features of the game and its logic.
 

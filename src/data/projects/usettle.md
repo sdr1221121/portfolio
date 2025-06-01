@@ -22,6 +22,6 @@ This feature of having accounts and debts with friends is already present in a s
 
 At the time, I couldn't wrap my head around the fact that we hadn't won but **it made me think and at the same time helped me deal better with failure.**
 
-# Would I do something different?
+# Would I do something differently?
 
 To be completely honest, I don't know what went wrong for us to not win anything and I don't say that as someone who is trying to brag or flex, I just don't know. But maybe, sometime in the future I get some sort of feedback or understand it.

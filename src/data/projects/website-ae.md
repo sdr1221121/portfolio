@@ -24,6 +24,6 @@ Aside from this, we were on the development team so I contributed to all parts o
 
 **Another important thing that I learned was that motivation is really important within a team and sometimes it may be more of a challenge to motivate your team than I thought.**
 
-# Would I do something different?
+# Would I do something differently?
 
 If I could, I would probably spend more of my time organizing the project in terms of which tasks were more important and should be implemented, which was the main issue during development.

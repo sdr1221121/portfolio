@@ -6,4 +6,4 @@
 
 # What have I learned?
 
-# Would I do something different?
+# Would I do something differently?

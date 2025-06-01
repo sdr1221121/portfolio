@@ -22,6 +22,6 @@ Even if my contributions were not really significant, **I feel like I've learned
 
 For that, I give my sincere thanks to [Luis Duarte](https://github.com/LuisDuarte1/) and [José Costa](https://github.com/Sirze01), who were the minds behind the whole project and **the people who fueled even more my passion for working on something great**.
 
-# Would I do something different?
+# Would I do something differently?
 
 I would probably give more of my time to contribute and be more involved in this project.
