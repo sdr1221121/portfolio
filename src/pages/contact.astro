@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { Phone } from '@lucide/astro'
+import { Link, Mail, Phone } from '@lucide/astro'
 ---
 
 <Layout title="Rubem | Contact me">
@@ -20,14 +20,20 @@ import { Phone } from '@lucide/astro'
             You can send an email or a message through Linkedin. <strong>I'll probably answer faster if it's an email.</strong><br>
         </p>
         <p>
-            📧 Email: 
-            <a href="mailto:rubemviscard2635@gmail.com">
-                rubemviscard2635@gmail.com 
-            </a><br>
-            🔗 LinkedIn:
-            <a href="https://www.linkedin.com/in/rubem-neto-62951122b/">
-                linkedin.com/in/rubem-neto-62951122b/
-            </a><br>
+            <div class="flex gap-1 items-center">
+                <Mail/>
+                Email: 
+                <a href="mailto:rubemviscard2635@gmail.com">
+                    rubemviscard2635@gmail.com 
+                </a><br>
+            </div>
+            <div class="flex gap-1 items-center">
+                <Link/>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/rubemneto74">
+                    linkedin.com/in/rubemneto74
+                </a><br>
+            </div>
         </p>
     </div>
 </Layout>
