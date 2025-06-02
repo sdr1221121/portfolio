@@ -1,29 +1,38 @@
 ---
 import { Users,Github } from '@lucide/astro';
 
-const {title,num_contributors,description,github_link,slug, activeLink} = Astro.props;
+const {title,numContributors,description,githubLink,slug, activeLink,categories} = Astro.props;
 
 const redirectLink = `/projects/${slug}`
 ---
 <div class="border rounded p-3 md:p-5 border-white hover:bg-[#30302e]">
+  <a href={redirectLink} class="no-underline">
   <div class="flex justify-between">
     <div class="flex justify-between gap-2">
-      { activeLink
-        ? <a class="text-white max-w-30 md:max-w-full text-xl hover:underline" href={redirectLink}>{title}</a>
-        : <h3 class="text-white text-xl text-gray-300">{title}</h3>
-      }
-      <div class="flex gap-1">
-        <Users/>
-        {num_contributors} 
+      <div class="text-white md:max-w-full text-xl hover:underline">{title}</div>
+      <div class="flex gap-1 items-center text-white">
+        <Users size={20}/>
+        {numContributors} 
       </div>
     </div>
-    <div>
-      <a href={github_link} class="text-[#c96442]">
+<!--     <button class="text-[#c96442] flex px-1 items-center hover:bg-[#c96442] hover:text-white rounded" onclick={`location.href = ${githubLink}`}>
+      <div>
         <Github/>
-      </a>
-    </div>
+      </div>
+    </button>  -->
   </div>
-  <a class="text-md text-gray-300 no-underline" href={redirectLink}>
-    {description}
-  </a >
+  <div class="text-md text-gray-300 no-underline">
+    <div class="flex gap-1 text-sm text-[#c96442] font-bold overflow-hidden text-ellipsis">
+      {categories.map((category: string,idx: number) => (
+        <div class="text-nowrap">
+          {idx == 0 ? category : `| ${category}`}
+        </div>
+      ))}
+    </div>
+    <div>
+      {description}
+    </div>
+  </div >
+
+  </a>
 </div>

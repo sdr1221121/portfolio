@@ -15,7 +15,7 @@ Aside from the development of the game, **we had to learn and implement design p
 - Java
 - Lanterna
 - Unit Tests
-- Mockito
+- Pitest
 
 # What did I do?
 
