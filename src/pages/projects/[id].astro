@@ -13,7 +13,7 @@ import {Content as WebsiteAE} from '../../data/projects/website-ae.md';
 import {Content as WebsiteNIAEFEUP} from '../../data/projects/website-niaefeup.md';
 
 import projects from '../../data/projects.json'
-import { Users,Github } from '@lucide/astro';
+import { Users,Github, SquareArrowOutUpRight } from '@lucide/astro';
 
 export async function getStaticPaths() {
   return [
@@ -58,10 +58,15 @@ const project = projects.find((project) => project.slug == id)
         {project?.num_contributors} 
       </div>
     </div>
-    <div class="flex flex-col justify-between items-center">
+    <div class="flex flex-row gap-2 justify-between items-center">
       <a href={project?.github_link} class="text-[#c96442]">
         <Github/>
       </a>
+      {project?.link && 
+        <a href={project?.link} class="text-[#c96442]">
+          <SquareArrowOutUpRight />
+        </a>
+      }
     </div>
   </div>
   {ProjectContent ? (
