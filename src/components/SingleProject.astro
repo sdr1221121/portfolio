@@ -1,11 +1,13 @@
 ---
-import { Users,Github } from '@lucide/astro';
+import { Users,Github,SquareArrowOutUpRight } from '@lucide/astro';
 
-const {title,numContributors,description,githubLink,slug, activeLink,categories} = Astro.props;
+const {title,numContributors,description,github_link,slug, activeLink,categories,link} = Astro.props;
 
 const redirectLink = `/projects/${slug}`
+console.log(link)
+console.log(title)
 ---
-<div class="border rounded p-3 md:p-5 m-1 border-white hover:bg-[#30302e]">
+<div class="border rounded p-3 my-3 md:p-5 lg:m-1 border-white hover:bg-[#30302e]">
   <a href={redirectLink} class="no-underline">
   <div class="flex justify-between">
     <div class="flex justify-between gap-2">
@@ -15,11 +17,16 @@ const redirectLink = `/projects/${slug}`
         {numContributors} 
       </div>
     </div>
-<!--     <button class="text-[#c96442] flex px-1 items-center hover:bg-[#c96442] hover:text-white rounded" onclick={`location.href = ${githubLink}`}>
-      <div>
-        <Github/>
+    <div class="flex flex-row gap-2 justify-between items-center hidden md:flex">
+      <div class="text-[#c96442]">
+        <Github size=20 />
       </div>
-    </button>  -->
+      {link && 
+        <div class="text-[#c96442]">
+          <SquareArrowOutUpRight size=20 />
+        </div>
+      }
+    </div>
   </div>
   <div class="text-md text-gray-300 no-underline">
     <div class="flex gap-1 text-sm text-[#c96442] font-bold overflow-hidden text-ellipsis">

@@ -35,7 +35,6 @@
     "link": "https://website-ae-five.vercel.app/",
     "active_link":true,
     "categories": [
-      "react",
       "nextjs",
       "tailwindcss",
       "payloadCMS",
