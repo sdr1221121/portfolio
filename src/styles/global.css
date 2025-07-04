@@ -5,7 +5,7 @@
 
 @layer base {
   h1 {
-    @apply text-xl font-bold my-5;
+    @apply text-xl font-bold my-5 underline
   }
 
   strong {

@@ -24,6 +24,6 @@ There are **three big things** that drive me:
 
 I’m a big fan of sci-fi **especially Star Wars**. There’s something about those stories that mixes imagination with deeper ideas about life, humanity, and the future.
 
-I also enjoy watching movies, especially dramas or more introspective and experimental films. I love stories that make you think or feel something real.
+I also enjoy **watching movies**, especially dramas or more introspective and experimental films. I love stories that make you think or feel something real.
 
-Another thing I love is going for walks and just taking in nature. It makes me feel connected to the world in a peaceful way. It’s my way of slowing down and recharging.
+Another thing I love is **going for walks** and just taking in nature. It makes me feel connected to the world in a peaceful way. It’s my way of slowing down and recharging.

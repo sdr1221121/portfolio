@@ -4,7 +4,7 @@ import SingleProject from './SingleProject.astro';
 import projects from '../data/projects.json'
 ---
 
-<div class="space-y-4">
+<div class="grid grid-cols-2">
   {projects.map(project => (
     <SingleProject 
       title={project.title} 
