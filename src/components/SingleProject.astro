@@ -4,11 +4,9 @@ import { Users,Github,SquareArrowOutUpRight } from '@lucide/astro';
 const {title,numContributors,description,github_link,slug, activeLink,categories,link} = Astro.props;
 
 const redirectLink = `/projects/${slug}`
-console.log(link)
-console.log(title)
 ---
 <div class="border rounded p-3 my-3 md:p-5 lg:m-1 border-white hover:bg-[#30302e]">
-  <a href={redirectLink} class="no-underline">
+  <a href={activeLink ? redirectLink : "#"} class="no-underline">
   <div class="flex justify-between">
     <div class="flex justify-between gap-2">
       <div class="text-white md:max-w-full text-xl">{title}</div>

@@ -11,6 +11,7 @@ import {Content as Uni} from '../../data/projects/uni.md';
 import {Content as USettle} from '../../data/projects/usettle.md';
 import {Content as WebsiteAE} from '../../data/projects/website-ae.md';
 import {Content as WebsiteNIAEFEUP} from '../../data/projects/website-niaefeup.md';
+import {Content as Tinyrp} from '../../data/projects/tiny-rp.md';
 
 import projects from '../../data/projects.json'
 import { Users,Github, SquareArrowOutUpRight } from '@lucide/astro';
@@ -27,6 +28,7 @@ export async function getStaticPaths() {
     { params: { id: 'usettle' } }, // [post] is the parameter
     { params: { id: 'website-ae' } }, // [post] is the parameter
     { params: { id: 'website-niaefeup' } }, // [post] is the parameter
+		{ params: { id: 'tinyrp' } }
     // ...
   ];
 }
@@ -41,6 +43,7 @@ const projectsMap = {
   "usettle": USettle,
   "website-ae": WebsiteAE,
   "website-niaefeup": WebsiteNIAEFEUP,
+	"tinyrp": Tinyrp
 };
 
 const { id = '' } = Astro.params;

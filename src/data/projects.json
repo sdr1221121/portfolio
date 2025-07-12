@@ -7,7 +7,22 @@
     "github_link": "https://github.com/rubuy-74/usettle",
     "active_link":true,
     "categories": [
-      "flutter"
+      "flutter",
+			"firebase"
+    ]
+  },
+  {
+    "title": "tinyrp",
+    "slug": "tinyrp",
+    "num_contributors": 1,
+    "description": "Implemented a reverse proxy server in Golang.",
+    "github_link": "https://github.com/rubuy-74/tinyrp",
+    "active_link": true,
+    "categories": [
+      "golang",
+			"docker",
+			"make",
+			"viper"
     ]
   },
   {
@@ -44,7 +59,7 @@
   {
     "title": "LTW Pre-Loved",
     "slug": "ltw-pre-loved",
-    "num_contributors": 7,
+    "num_contributors": 3,
     "description": "Developed a OLX clone from scratch using pure HTML,CSS, Javascript and PHP.",
     "github_link": "https://github.com/rubuy-74/ltw-pre-loved",
     "link": "https://ltw-preloved.rubuy.me",
