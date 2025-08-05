@@ -31,7 +31,6 @@
     "num_contributors": 4,
     "description": "Built a full-stack web application inspired by the Daily.dev platform using Laravel, enabling developers to create and share tech news.",
     "github_link": "https://github.com/rubuy-74/LBAW-everyday.dev",
-    "link": "https://everyday-dev.rubuy.me",
     "active_link":true,
     "categories": [
       "laravel",
@@ -47,7 +46,6 @@
     "num_contributors": 7,
     "description": "Created a modern website for the FEUP student association using Next.js and Payload CMS.",
     "github_link": "https://github.com/rubuy-74/website-ae",
-    "link": "https://website-ae-five.vercel.app/",
     "active_link":true,
     "categories": [
       "nextjs",
@@ -62,7 +60,6 @@
     "num_contributors": 3,
     "description": "Developed a OLX clone from scratch using pure HTML,CSS, Javascript and PHP.",
     "github_link": "https://github.com/rubuy-74/ltw-pre-loved",
-    "link": "https://ltw-preloved.rubuy.me",
     "active_link":true,
     "categories": [
       "html",
