@@ -1,29 +1,23 @@
-**Hey, my name is Rubem Neto.** I'm just a guy who loves to learn and explore new things. Ever since I was a kid, I've always been curious,constantly diving into new ideas and asking lots of "why?". For me, a question without an answer is just a challenge waiting for someone to figure it out.
+Hey, my name is Sandro Luís, and I'm a Computer Engineering student who loves to learn and explore new things. Ever since I was a kid, curiosity has been my constant companion, pushing me to dive into new ideas and ask endless "why?" questions. For me, an unanswered question isn't a roadblock, but a challenge waiting for a solution.
 
-I was born in **Brazil** in 2004. I love my country deeply and hope to visit my family and friends there as often as I can. There's something special about being around the people and places that shaped who you are.
+Born in Portugal, I deeply cherish my country and the connections to the people and places that have shaped who I am. From an early age, I found myself drawn to puzzles and anything that stimulated my mind. My journey into computer engineering began with that same innate curiosity, often leading me to explore beyond classroom materials just for the sheer joy of discovery. I'm truly grateful for that early initiative, as it's a fundamental part of how I got to where I am today.
 
-Since I was little, I’ve been into puzzles and anything that pushes my brain a bit. One of my first experiences with that was through math in school. There wasn't much going on in class most of the time, so I ended up exploring the textbooks and reading ahead just out of curiosity. Looking back, **I’m really grateful to my younger self** for doing that because, without that curiosity and initiative, I probably wouldn’t be where I am now.
+My studies at the Instituto Superior de Engenharia do Porto (ISEP) have been pivotal, not just for the knowledge gained, but for the incredible people I've met. I've had the chance to collaborate with amazing individuals who share my passion for tackling new challenges. This experience has solidified my belief in the power of collaboration – with the right team, anything feels possible, a principle vividly demonstrated during projects like the Blended Intensive Programme (BIP).
 
-When I moved to Portugal in 2019, I got the chance to meet a lot of amazing people who are also into tackling new challenges and even more importantly, into working together and collaborating. For me, **collaboration is incredibly important**. With the right team, anything feels possible.
+### What I'm Focused on Now
 
-# What am I working on now?
+Currently, I'm dedicating time to refining my organizational strategies to maximize the value of my time. If you have any book recommendations or effective techniques for improving organization and time management, I'd love to hear them! I'm particularly interested in leveraging emerging technologies for sustainable development and am always on the lookout for simple, efficient, and scalable solutions.
 
-I’m currently working on strategies to **better organize myself** so I can take more value from my time. So if you have any book recomendations or strategies to improve organization and time management, please hit me up.
+### My Driving Forces
 
-# Motivation
+Three core elements truly motivate me:
 
-There are **three big things** that drive me:
+1.  **Learning:** Every single day offers a chance to learn something new, and that constant discovery is what keeps life exciting for me. Keeping our minds fresh and open to new knowledge is a cycle I genuinely enjoy being a part of, especially when it comes to technology.
 
-1. **Learning** - Every day is a chance to **learn something new**, and that’s what keeps life exciting. Discovering new things helps keep our minds fresh and open to even more learning. It’s a cycle I really enjoy being part of.
+2.  **Helping People:** I'm driven to work on initiatives that genuinely make a difference in people's lives, no matter how small. Making someone's day a little better feels incredibly meaningful. This desire aligns perfectly with my practical experience in fullstack development and system integration, particularly with projects involving sensors in agricultural contexts, like the Digital Assistant for Sustainable Agriculture.
 
-2. **Helping people** - I want to work on things that actually **make a difference in people’s lives**, even if it’s something small. Making someone’s day just a little bit better feels meaningful to me.
+3.  **My Mother:** She has always been my steadfast support and guide. None of my achievements would have been possible without her unwavering love and encouragement. One of my biggest dreams is to provide her with the comfortable and happy life she so truly deserves.
 
-3. **My mother** - She’s been my rock and my guide through life. None of this would’ve been possible without her support and love. One of my biggest dreams is to give her the comfortable and happy life she truly deserves.
+### Beyond the Code
 
-# Personal Interests
-
-I’m a big fan of sci-fi **especially Star Wars**. There’s something about those stories that mixes imagination with deeper ideas about life, humanity, and the future.
-
-I also enjoy **watching movies**, especially dramas or more introspective and experimental films. I love stories that make you think or feel something real.
-
-Another thing I love is **going for walks** and just taking in nature. It makes me feel connected to the world in a peaceful way. It’s my way of slowing down and recharging.
+Outside of my engineering pursuits, I'm a big enthusiast of science fiction, with a special affinity for **Star Wars**. I find immense joy in stories that blend imagination with profound ideas about humanity, life, and the future. I also appreciate **watching movies**, especially dramas or more introspective and experimental films that provoke thought and genuine emotion. When I need to recharge, there's nothing quite like **going for walks** and immersing myself in nature, which offers a peaceful connection to the world and a chance to slow down.
