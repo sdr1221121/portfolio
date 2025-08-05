@@ -1,20 +1,14 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
+import tailwind from '@astrojs/tailwind';
+import vercel from '@astrojs/vercel/server';
 
-import tailwindcss from '@tailwindcss/vite';
-
-import vercel from '@astrojs/vercel';
-
-// https://astro.build/config
 export default defineConfig({
-  vite: {
-    plugins: [tailwindcss()]
-  },
-
+  integrations: [tailwind()],
   adapter: vercel({
+    // Desativa o web analytics para evitar o erro 404 do script
     webAnalytics: {
-      enabled: true,
+      enabled: false,
     },
-    maxDuration: 8
-  })
+    maxDuration: 8,
+  }),
 });
