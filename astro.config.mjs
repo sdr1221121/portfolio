@@ -9,7 +9,7 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
   adapter: vercel({
-    runtime: 'nodejs20.x',
+    runtime: 'nodejs18.x',
     webAnalytics: {
       enabled: true,
     },
