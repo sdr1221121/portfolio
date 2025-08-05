@@ -5,15 +5,15 @@
 
 @layer base {
   h1 {
-    @apply text-xl font-bold my-5 no-underline; /* Changed from underline to no-underline */
+    @apply text-xl font-bold my-5 underline
   }
 
   strong {
-    @apply text-[#c96442];
+    @apply text-[#c96442]
   }
 
   a {
-    @apply text-blue-400 hover:underline;
+    @apply text-blue-400 hover:underline
   }
 
   ul {
@@ -25,7 +25,7 @@
   }
 
   li {
-    @apply mb-2;
+    @apply mb-2 ;
   }
 
   img {
