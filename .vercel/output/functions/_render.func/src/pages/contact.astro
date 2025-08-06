@@ -1,0 +1,39 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Link, Mail, Phone } from '@lucide/astro'
+---
+
+<Layout title="Sandro Luís | Contact me">
+    <h1 class="text-3xl font-bold m-0 mt-5 no-underline">Sandro Luís</h1>
+    <p class="mb-6 text-[#c96442]">Computer Engineering Student</p>
+    <h2 class="flex items-center gap-2 text-2xl font-bold leading-snug mb-4">
+        <Phone/>
+        <div>Contact me</div>
+    </h2>
+
+
+    <div class="space-y-4">
+        <p>
+            Thank you for checking out <strong>my website</strong>! If you wanna hit me up for anything, be it a <strong>project</strong>, a <strong>job</strong> or just to send me a book recomendation. I'd be excited for us to talk.
+        </p>
+        <p>
+            You can send an email. <strong>I'll probably answer faster if it's an email.</strong><br>
+        </p>
+        <p>
+        <div class="flex gap-1 items-center">
+            <Mail/>
+            Email:
+            <a href="mailto:sandroluis720@gmail.com">
+                sandroluis720@gmail.com
+            </a><br>
+        </div>
+        <div class="flex gap-1 items-center">
+            <Phone/>
+            Phone:
+            <a href="tel:+351938536401">
+                +351 938 536 401
+            </a><br>
+        </div>
+        </p>
+    </div>
+</Layout>
