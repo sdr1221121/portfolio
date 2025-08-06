@@ -1,40 +1,24 @@
-# 🔧 Build output
+# build output
 dist/
+
+# generated types
 .astro/
 
-# 📦 Dependências
+# dependencies
 node_modules/
 
-# 🧪 Tipagens e caches
-.vite/
-.cache/
-*.tsbuildinfo
-
-# 📃 Ficheiros de log
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# 🔐 Variáveis de ambiente
+# environment variables
 .env
-.env.*
-!.env.example
+.env.production
 
-# 💻 Ficheiros específicos de SO
+# macOS-specific files
 .DS_Store
-Thumbs.db
 
-# 🛠️ Ficheiros de configuração locais
-.vercel/
-
-# 🧠 IDEs
+# jetbrains setting folder
 .idea/
-.vscode/
-*.sublime-project
-*.sublime-workspace
-
-# 🔍 Outros
-*.log
-*.tmp
-*.temp

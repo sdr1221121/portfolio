@@ -1,6 +1,7 @@
-# Sandro Luís Portfolio
+# Rubem Neto's Portfolio
 
-This repository presents the personal portfolio of Sandro Luís, a Software Engineering student. The project is a fork of Rubem Neto’s portfolio, available at github.com/rubuy-74/portifolio.
+Welcome to my personal portfolio project! This repository showcases my work, projects, and interests as a Software Engineering student. The portfolio is built using **Astro** and styled with **Tailwind CSS**.
+
 ## 🚀 Features
 
 - **Dynamic Project Pages**: Each project has its own dedicated page with detailed information.
@@ -75,8 +76,8 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 
 If you have any questions or want to connect, feel free to reach out:
 
-- **Email**: [sandroluis720@gmail.com](mailto:sandroluis720@gmai.com.com)
-- **LinkedIn**: [linkedin.com/in/sandro-luís-86079b229/](www.linkedin.com/in/sandro-luís-86079b229/)
+- **Email**: [rubemviscard2635@gmail.com](mailto:rubemviscard2635@gmail.com)
+- **LinkedIn**: [linkedin.com/in/rubem-neto-62951122b/](https://www.linkedin.com/in/rubem-neto-62951122b/)
 
 ## 📜 License
 
